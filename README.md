@@ -8,7 +8,7 @@
 <h3 align="center" ><strong>Irei salvar os projetos que for realizando no decorrer das NLW's</strong></h3>
 
 ### NLW Together
- - <a href="https://github.com/edinelsonslima/NLW/tree/master/letmeask">Trilha de ReactJs: LetmeAsk</a>
+ - <a href="https://github.com/edinelsonslima/NLW/tree/master/nlw-together">Trilha de ReactJs: LetmeAsk</a>
 
 ### NLW #05
- - <a href="https://github.com/edinelsonslima/NLW/tree/master/chatBot">Trilha de NodeJs: ChatBot</a>
+ - <a href="https://github.com/edinelsonslima/NLW/tree/master/nlw-%2305">Trilha de NodeJs: ChatBot</a>
