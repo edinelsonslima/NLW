@@ -1,4 +1,11 @@
-import { createContext, ReactNode, useEffect, useState } from 'react';
+import {
+    createContext,
+    Dispatch,
+    ReactNode,
+    SetStateAction,
+    useEffect,
+    useState,
+} from 'react';
 import { api } from '../services/api';
 type User = {
     id: string;
@@ -11,7 +18,8 @@ type AuthContextData = {
     user: User | null;
     signInUrl: string;
     signOut: () => void;
-    loading: boolean
+    loading: boolean;
+    setLoading: Dispatch<SetStateAction<boolean>>;
 };
 
 type AuthProvider = {
@@ -37,7 +45,6 @@ export function AuthProvider(props: AuthProvider) {
     const signInUrl = `https://github.com/login/oauth/authorize?scope=user&client_id=8dbe412ce211c27855ef`;
 
     async function signIn(githubCode: string) {
-        setLoading(true)
         const response = await api.post<AuthResponse>('authenticate', {
             code: githubCode,
         });
@@ -48,7 +55,6 @@ export function AuthProvider(props: AuthProvider) {
         api.defaults.headers.common.authorization = `Bearer ${token}`;
 
         setUser(user);
-        setLoading(false)
     }
 
     function signOut() {
@@ -79,7 +85,9 @@ export function AuthProvider(props: AuthProvider) {
     }, []);
 
     return (
-        <AuthContext.Provider value={{ signInUrl, user, signOut, loading }}>
+        <AuthContext.Provider
+            value={{ signInUrl, user, signOut, loading, setLoading }}
+        >
             {props.children}
         </AuthContext.Provider>
     );
