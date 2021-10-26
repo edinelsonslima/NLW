@@ -23,8 +23,8 @@ Essa edição da **nlw** veio de forma diferente das anteriores, em vez de ser u
    <img alt="Edinelson-SOCKET-IO" height="50" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/socketio/socketio-original.svg">
 
    <img alt="Edinelson-SASS" height="50" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
-   
-   <img alt="Edinelson-EXPO" height="50" width="150" src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/38066/UP0R2X0zSPAeasVmo1Zr">
+
+   <img alt="Edinelson-EXPO" height="50" width="50" src="https://seeklogo.com/images/E/expo-logo-01BB2BCFC3-seeklogo.com.png">
   
    <img alt="Edinelson-HTML" height="50" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 
