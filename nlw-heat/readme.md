@@ -28,7 +28,6 @@ Essa edição da **nlw** veio de forma diferente das anteriores, em vez de ser u
   
    <img alt="Edinelson-HTML" height="50" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 
-
    <img alt="Edinelson-PRISMA" height="50" width="150" src="https://tsed.io/prisma-2.svg">
 
 </div>
