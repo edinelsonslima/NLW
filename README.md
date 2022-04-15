@@ -1,6 +1,8 @@
 <h1 align="center" ><strong>NLW ROCKETSEAT</strong></h1>
 
-<img src="https://discover.fcamara.dev/wp-content/themes/fcamara/img/footer/rocketseat.png" />
+<div align="center">
+  <img src="https://t2.tudocdn.net/572277?w=646&h=284" />
+</div>
 
 <hr>
 <br>
